@@ -1,0 +1,87 @@
+/* подсключить шрифты из гугл-фонтс
+Raleway 700
+Open sans 400, 600, 700 */
+:root {
+  --main-font: "Open sans", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --accent-color: #ff6c00;
+}
+
+body {
+  font-family: var(--main-font);
+}
+
+/* HEADER */
+.menu-link,
+.tel-link {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+}
+
+.menu-link:hover,
+.menu-link:focus,
+.tel-link:hover,
+.tel-link:focus {
+  color: var(--accent-color);
+}
+
+.modal-btn {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  color: white;
+  background-color: var(--accent-color);
+}
+
+/* HERO section*/
+
+.social-links-list-link {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  color: #303030;
+}
+
+.social-links-list-link:hover,
+.social-links-list-link:focus {
+  color: var(--accent-color);
+}
+
+.suptitle {
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.36;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(157, 164, 189, 0.6);
+}
+
+.hero-title {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 1.18;
+  letter-spacing: 0.05em;
+  /* color: #FFFFFF; */
+}
+
+.section-description {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.67;
+  letter-spacing: 0.02em;
+  color: #9da4bd;
+}
+
+/* end of hero section */
