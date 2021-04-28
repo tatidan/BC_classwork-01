@@ -10,20 +10,23 @@
     <title>Barbershop</title>
 </head>
 <body>
+    
   <header class="header">
-    <nav class="header-nav">
-        <a class="logo" href="./">
-            <img class="logo-img" src="./images/logo.svg" alt="логотип"></a>
-        <ul class="menu">
-            <li class="menu-item"> <a class="menu-link" href="">О нас</a>
-            </li>
-            <li class="menu-item"> <a class="menu-link" href="">Услуги и цены</a>
-            </li>
-            <li class="menu-item"> <a class="menu-link" href="">Мастера</a>
-            </li>
-            <li class="menu-item"> <a class="menu-link" href="">Контакты</a>
-            </li>
-        </ul>
+    <div class="container">
+        <nav class="header-nav">
+            <a class="logo" href="./">
+                <img class="logo-img" src="./images/logo.svg" alt="логотип"></a>
+            <ul class="menu">
+                <li class="menu-item"> <a class="menu-link" href="">О нас</a>
+                </li>
+                <li class="menu-item"> <a class="menu-link" href="">Услуги и цены</a>
+                </li>
+                <li class="menu-item"> <a class="menu-link" href="">Мастера</a>
+                </li>
+                <li class="menu-item"> <a class="menu-link" href="">Контакты</a>
+                </li>
+            </ul>
+        </div>
     </nav>
 
     <a class="tel-link" href="tel:+380441111111">+38 044 111 11 11</a>
@@ -32,38 +35,45 @@
 
 <main>
 <section class="hero">
-    <div class="hero-left-side">
-        <ul class="social-links-list">
-            <li class="social-links-list-item"><a class="social-list-list-link" href="" lang="en">Instagram</a></li>
-            <li class="social-links-list-item"><a class="social-list-list-link" href="" lang="en">Youtube</a></li>
-        </ul>
-    </div>
-
-    <div class="hero-right-side">
-        <p class="suptitle" lang="en">A hair salon for men in Kyiv</p>
-        <h1 class="hero-title" lang="en">BarberShop</h1>
-        <p class="section-description">Мы эксперты в модных мужских стрижках. Работаем быстро, осторожно и со вкусом.</p>
+    <div class="container">
+        <div class="hero-left-side">
+            <ul class="social-links-list">
+                <li class="social-links-list-item"><a class="social-list-list-link" href="" lang="en">Instagram</a></li>
+                <li class="social-links-list-item"><a class="social-list-list-link" href="" lang="en">Youtube</a></li>
+            </ul>
+        </div>
+    
+        <div class="hero-right-side">
+            <p class="suptitle" lang="en">A hair salon for men in Kyiv</p>
+            <h1 class="hero-title" lang="en">BarberShop</h1>
+            <p class="section-description">Мы эксперты в модных мужских стрижках. Работаем быстро, осторожно и со вкусом.
+            </p>
+        </div>
     </div>
 </section>
 
 <!-- about us -->
-<section>
-    <div>
-        <ul>
-            <li><img src="./images/about-img-1.png" alt="мастер бреет бороду клиенту" width="270" height="445"></li>
-            <li><img src="./images/about-img-2.png" alt="мастер стрижет клиента" width="270" height="445"></li>
-        </ul>
-    </div>
-    <div>
-        <p>О нас</p>
-        <h2>Лучший Барбершоп твоего города</h2>
-        <p>Если ты хочешь добавить в свой образ больше уверенности – тебе точно к нам.</p>
-        <p>Мы команда, которая никогда не останавливается на достигнутом
-        и жаждет перемен. И когда ты попадешь в руки нашего мастера,
-        то уже никогда не сможешь быть прежним. Мы команда, которая всегда с клиентами "на одной волне".
-        Поэтому, мы всегда готовы усовершенствовать каждого, кто к нам приходит!</p>
-        <button type="button">онлайн-запись</button>
+<section class="about">
+    <div class="container">
+        <div class="about-left-side">
+            <ul class="about-list">
+                <li class="about-list-item"><img class="about-list-img" src="./images/about-img-1.png"
+                        alt="мастер бреет бороду клиенту" width="270" height="445"></li>
+                <li class="about-list-item"><img class="about-list-img" src="./images/about-img-2.png"
+                        alt="мастер стрижет клиента" width="270" height="445"></li>
+            </ul>
+        </div>
+        <div class="about-right-side">
+            <p class="suptitle">О нас</p>
+            <h2 class="title">Лучший Барбершоп твоего города</h2>
+            <p class="description">Если ты хочешь добавить в свой образ больше уверенности – тебе точно к нам.</p>
+            <p>Мы команда, которая никогда не останавливается на достигнутом
+                и жаждет перемен. И когда ты попадешь в руки нашего мастера,
+                то уже никогда не сможешь быть прежним. Мы команда, которая всегда с клиентами "на одной волне".
+                Поэтому, мы всегда готовы усовершенствовать каждого, кто к нам приходит!</p>
+            <button class="modal-btn" type="button">онлайн-запись</button>
     
+        </div>
     </div>
 </section>
 

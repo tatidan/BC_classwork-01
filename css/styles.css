@@ -7,6 +7,26 @@ Open sans 400, 600, 700 */
   --accent-color: #ff6c00;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+}
+img {
+  display: block;
+}
+
+/* .list{}
+.link{} */
+
 body {
   font-family: var(--main-font);
 }
@@ -85,3 +105,37 @@ body {
 }
 
 /* end of hero section */
+
+/* урок теории 3 */
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+}
+
+.logo {
+  margin-right: 70px;
+}
+
+/* .menu-item {
+  /* margin:not last-child: */
+} */
+
+.tel-link {margin-left: auto; margin-right: 40px;}
+
+.header {padding-top: 32px;
+padding-bottom: 32px;}
